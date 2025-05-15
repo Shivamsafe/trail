@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_safse_demo_app_.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false"
+    xmlns:j="jelly:core"
+    xmlns:g="glide"
+    xmlns:j2="null"
+    xmlns:g2="null">
+    
+    <style>
+        /* Main container styling with a card-like appearance */
+        .main-container {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: var(--navpage-content-bg, #ffffff);
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Heading styles */
+        .title {
+            font-size: 28px;
+            color: #00174d;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #00174d;
+            margin-bottom: 20px;
+            font-weight: 500;
+            border-bottom: 2px solid #00174d;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Contact section and button styles */
+        .contact-section {
+            margin-top: 20px;
+        }
+
+        .contact-link {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #00174d;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(0, 23, 77, 0.3);
+        }
+
+        .contact-link:hover {
+            background-color: #002766;
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 39, 102, 0.4);
+        }
+
+        /* Form styling */
+        .container {
+            margin-top: 40px;
+            text-align: left;
+        }
+		#name{
+			margin-right:300px;
+		}
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: 600;
+            color: #333333;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            background-color: #00174d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #002766;
+        }
+    </style>
+
+    <div class="main-container">
+        <h1 class="title">SAFE IRM Connector - Support</h1>
+        <div class="contact-section">
+            <a class="contact-link" rel="noopener noreferrer nofollow"
+                href="https://service.desk.safe.security/servicedesk/customer/portals"
+                target="_blank">
+                Contact Us
+            </a>
+        </div>
+
+        <div class="container">
+            <h2>GitHub Credentials</h2>
+            <form action="#" method="post">
+                <label for="name">Credential Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. GitHub Token" />
+
+                <label for="username">GitHub Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your GitHub username" />
+
+                <label for="token">GitHub Token</label>
+                <input type="password" id="token" name="token" placeholder="Enter your GitHub token" />
+
+                <input type="submit" value="Save Credentials" />
+            </form>
+        </div>
+    </div>
+</j:jelly>
+]]></html>
+        <name/>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>shivam.si</sys_created_by>
+        <sys_created_on>2025-05-15 09:02:30</sys_created_on>
+        <sys_id>ac93909d3b292e10d156c4e643e45a96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo app" source="x_safse_demo_app">df5c0c153b292e10d156c4e643e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo app">df5c0c153b292e10d156c4e643e45ad1</sys_scope>
+        <sys_update_name>sys_ui_page_ac93909d3b292e10d156c4e643e45a96</sys_update_name>
+        <sys_updated_by>shivam.si</sys_updated_by>
+        <sys_updated_on>2025-05-15 09:02:30</sys_updated_on>
+    </sys_ui_page>
+</record_update>
